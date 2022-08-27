@@ -1,0 +1,21 @@
+<div>
+    <div class="rent-item mb-4">
+        <img class="img-fluid mb-4" [src]="img" alt="">
+        <h4 class="text-uppercase mb-4">{{name}}</h4>
+        <div class="d-flex justify-content-center mb-4">
+            <div class="px-2">
+                <i class="fa fa-car text-primary mr-1"></i>
+                <span>{{model}}</span>
+            </div>
+            <div class="px-2 border-left border-right">
+                <i class="fa fa-cogs text-primary mr-1"></i>
+                <span>{{type | uppercase}}</span>
+            </div>
+            <div class="px-2">
+                <i class="fa fa-road text-primary mr-1"></i>
+                <span>{{kilometer}}</span>
+            </div>
+        </div>
+        <a class="btn btn-primary px-3" href="">${{price}}</a>
+    </div>
+</div>
