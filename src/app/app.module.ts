@@ -9,18 +9,24 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FormsModule } from '@angular/forms';
 import { TeamComponent } from './team/team.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
     SvcComponent,
     CarsComponent,
     ContactUsComponent,
-    TeamComponent
+    TeamComponent,
+
+
+    
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+
 
   ],
   providers: [],
